@@ -1,0 +1,22 @@
+.Apropos-Liste {
+    display:flex;
+    flex-direction: column;
+    margin:15px 35px;
+    text-decoration: none;
+    align-items: center;
+    background-color: red;
+    &-Text {
+        background-color: $textcolor;
+        color:white;
+        width:80%;
+        border:1px red solid;
+        padding: 12px;
+        margin:10px;
+        border-radius:5px;
+        font-size:20px;
+    }
+    &-Font {
+        color:black;
+        background-color: black;
+    }
+}

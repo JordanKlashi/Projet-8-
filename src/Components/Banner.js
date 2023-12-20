@@ -1,5 +1,5 @@
-import './style/Banner.scss';
-import LogoAccueil from './img/Banner_Accueil.png';
+import '../style/index.scss';
+import LogoAccueil from '../img/Banner_Accueil.png';
 
 function Banner() {
     return(

@@ -1,5 +1,5 @@
 import './style/app.scss';
-import Logements from './logements.json';
+import Logements from '../logements.json';
 // import { useEffect, useState } from 'react';
 
 const App = () => {
@@ -43,7 +43,6 @@ const App = () => {
 
 
   // );
-
 
 
 
