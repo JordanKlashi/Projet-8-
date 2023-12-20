@@ -1,0 +1,21 @@
+.Erreur {
+    margin:25px 50px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &-Img {
+        width:60%;
+        margin:80px;
+    }
+    &-Txt {
+        color:$textcolor;
+        font-size: 22px;
+        margin-bottom:80px;
+    }
+    &-Link {
+        margin:60px;
+        color:$textcolor;
+        text-decoration: underline;
+    }
+}

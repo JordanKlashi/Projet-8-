@@ -7,6 +7,7 @@ import Banner from './Components/Banner.js';
 // import Footer from './Footer.js';
 // import FicheLogements from './FicheLogement.js';
 import Apropos from './Components/Apropos.js';
+import Erreur from './Components/Erreur.js';
 
 
 
@@ -17,6 +18,7 @@ root.render(
     <Header />
     <Banner />
     <Apropos />
+    <Erreur />
     
     {/* <FicheLogements /> */}
     {/* 

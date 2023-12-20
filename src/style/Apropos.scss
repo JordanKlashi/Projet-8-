@@ -4,7 +4,6 @@
     margin:15px 35px;
     text-decoration: none;
     align-items: center;
-    background-color: red;
     &-Text {
         background-color: $textcolor;
         color:white;
@@ -17,6 +16,5 @@
     }
     &-Font {
         color:black;
-        background-color: black;
     }
 }
