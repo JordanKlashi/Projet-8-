@@ -1,0 +1,29 @@
+.Hébergements {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 50px;
+  padding: 35px 5px 0px 5px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: #f6f6f6;
+  justify-content: space-around;
+  &-Carte {
+    flex-direction: column;
+    border-radius:15px;
+
+    width: 28%;
+    height: 45%;
+    cursor: pointer;
+    Img {
+    width:100%;
+      object-fit:cover;
+      border-radius: 15px 15px 0px 0px ;
+
+    }
+  }
+  &-Titre {
+    top:20%;
+    color: $textcolor;
+    text-align: center;
+  }
+}

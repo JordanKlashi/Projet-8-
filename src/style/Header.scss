@@ -1,0 +1,33 @@
+header {
+    margin:25px 50px ;
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Logo {
+    width: 150px;
+  }
+
+.Link {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    &_Accueil {
+      text-decoration: none;
+      color: #ff6060;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &_Apropos {
+      text-decoration: none;
+      color: #ff6060;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+

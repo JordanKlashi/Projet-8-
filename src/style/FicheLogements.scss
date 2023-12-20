@@ -1,0 +1,53 @@
+.FicheLogements {
+  margin: 15px 35px;
+  &-Img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &-test {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    display: flex;
+    border: 2px red solid;
+    color: $textcolor;
+    align-items: center;
+  }
+  &-Titre {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  &-ProfilLoueur {
+    flex: 2;
+    text-align: right;
+  }
+  &-Filter {
+    display: flex;
+  }
+  &-Tag {
+    padding: 25px 10px;
+    color: white;
+    background-color: $textcolor;
+  }
+  &-Star {
+    align-items: right;
+    text-align: right;
+  }
+  &-Button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+  }
+  &-Description {
+
+    width:45%;
+    border: 1px black solid;
+    background-color: $textcolor;
+  }
+  &-Equipements {
+    width:45%;
+    border: 1px black solid;
+    background-color: $textcolor;
+  }
+}
