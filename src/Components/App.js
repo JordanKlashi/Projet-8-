@@ -1,5 +1,6 @@
-import './style/app.scss';
+import '../style/index.scss';
 import Logements from '../logements.json';
+
 // import { useEffect, useState } from 'react';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       {SixFirst.map((logement, index) => (
         <div className='Hébergements-Carte' key={index}>
           <img 
+            
             className='Hébergements-Img'
             src={logement.cover}
             alt={`Logement ${index}`}

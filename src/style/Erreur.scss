@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     &-Img {
-        width:60%;
+        width:40%;
         margin:80px;
     }
     &-Txt {
@@ -16,6 +16,6 @@
     &-Link {
         margin:60px;
         color:$textcolor;
-        text-decoration: underline;
+
     }
 }
