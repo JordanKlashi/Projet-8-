@@ -1,29 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/index.scss';
-// import Header from './Components/Header.js';
-// import Banner from './Components/Banner.js';
-// import App from './Components/App.js';
-// // import Footer from './Footer.js';
-// // import FicheLogements from './FicheLogement.js';
-// import Apropos from './Components/Apropos.js';
-// import Erreur from './Components/Erreur.js';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from './Pages/Home.js'
-import Erreur from './Components/Erreur.js';
-import Apropos from './Components/Apropos.js';
-// import Survey from './Pages/survey.jsx'
+
+import Header from './Components/Header.jsx'
+import Footer from './Components/Footer.jsx'
+
+import Home from './Pages/Home.jsx'
+import Apropos from './Pages/Apropos.jsx'
+import Erreur from './Pages/Erreur.jsx'
+import Logements from './Components/GallerieLogement.jsx'
+
 
 
 ReactDOM.render(
   <React.StrictMode>
       <Router>
+        <Header />
           <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/Apropos" element={<Apropos />} />
               <Route path="*" element={<Erreur />} />
+              <Route path="/Logements/c67ab8a7" element={<Logements />} />
           </Routes>
-                </Router>
+          <Footer />
+        </Router>
+
   </React.StrictMode>,
 document.getElementById('root')
 )

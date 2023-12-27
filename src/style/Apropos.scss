@@ -1,20 +1,32 @@
-.Apropos-Liste {
-    display:flex;
+.Apropos {
+  &-Font {
+    color: white;
+  }
+  &-Liste {
+    width:87%;
+    display: flex;
     flex-direction: column;
-    margin:15px 35px;
-    text-decoration: none;
+    margin: 15px 35px;
     align-items: center;
     &-Text {
-        background-color: $textcolor;
-        color:white;
-        width:80%;
-        border:1px red solid;
-        padding: 12px;
-        margin:10px;
-        border-radius:5px;
-        font-size:20px;
+        display:flex;
+        width:90%;
+      background-color: $textcolor;
+      color: white;
+      border: 1px red solid;
+      padding: 12px;
+      margin: 10px;
+      border-radius: 5px;
+      font-size: 20px;
+      justify-content: space-between;
+      &_sub {
+        width:87%;
+        background-color: #f6f6f6;
+        color: $textcolor;
+        padding: 25px;
+        margin-top: -10px;
+      }
+      
     }
-    &-Font {
-        color:black;
-    }
+  }
 }
