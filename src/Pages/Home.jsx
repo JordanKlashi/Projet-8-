@@ -1,4 +1,4 @@
-
+import LogoAccueil from '../img/Banner_Accueil.png'
 import Banner from '../Components/Banner.jsx';
 import Gallerie from '../Components/Gallerie.jsx';
 

@@ -1,0 +1,9 @@
+.rotated {
+  transition: transform 0.5s ease-in;
+  transform: rotate(180deg);
+}
+
+.norotated {
+  transition: transform 0.5s ease-out;
+  transform: rotate();
+}

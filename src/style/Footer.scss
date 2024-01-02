@@ -1,19 +1,21 @@
 footer {
-    padding-top:20px;
-    display:flex;
-    flex-direction: column;
-    height:80px;
-    background-color: black;
-    margin-top:25px;
-    max-width: none;
-    justify-content: center;
-    align-items: center;
-    color:#FFFFFF;
-    font-weight:500;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  background-color: black;
+  margin: 40px 0px;
+  margin-bottom: 0px;
+  max-width: none;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .Logo-Footer {
-width:50px;
+  width: 80px;
 }
-
-
+.copyright {
+  padding-bottom: 50px;
+}
