@@ -1,14 +1,19 @@
 import CardLogement from "./CardLogement";
+import Erreur from '../Pages/Erreur';
 import Logements from "../logements.json";
 import { useParams } from "react-router-dom";
 
+
 const GallerieLogement = () => {
+
+  
   const { id } = useParams();
 
   const logement = Logements.find((log) => log.id === id);
-
+ 
   return (
-    logement && (
+    <>
+      {logement ? (
       <CardLogement
         slides={logement.pictures}
         title={logement.title}
@@ -21,8 +26,12 @@ const GallerieLogement = () => {
         hostPicture={logement.host.picture}
         rating={logement.rating}
       />
-    )
-  );
+     ) : (
+      <Erreur />
+     )}
+     
+     </> 
+  )
 };
 
 export default GallerieLogement;

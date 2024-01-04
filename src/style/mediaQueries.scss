@@ -30,21 +30,34 @@
     height: 200px;
   }
   .arrow {
-    padding-top:50px;
+    padding-top: 50px;
   }
-  .FicheLogements-ProfilLoueur {
-    position:relative;
-    top:0;
-    right:0;
-    padding-right:10px;
-    &_Picture {
-        position:relative;
-        top:0;
-        right:0;
+  .FicheLogements {
+    &-Filter{
+      align-items: center;
+      margin-top:15px;
     }
-  }
-
-  .FicheLogements-Button {
-    flex-direction: column;
+    &-ProfilLoueur {
+      position: relative;
+      top: 0;
+      right: 0;
+      padding-right: 10px;
+      &_Picture {
+        position: relative;
+        top: 0;
+        right: 0;
+      }
+    }
+    &-Button {
+      flex-direction: column;
+    }
+    &-Tag{
+      display:flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      &_txt{
+        margin-top:10px;
+      }
+    }
   }
 }
