@@ -11,27 +11,26 @@
     font-size: 18px;
     font-weight: 100;
   }
-  &-Profil{
-    display:flex;
+  &-Profil {
+    display: flex;
     flex-direction: row;
-    
   }
   &-Filter {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top:30px;
+    margin-top: 30px;
   }
   &-ProfilLoueur {
-    position:absolute;
-    top:600px;
-    right:150px;
-    color:$textcolor;
+    position: absolute;
+    top: 600px;
+    right: 150px;
+    color: $textcolor;
     &_Picture {
-      position:absolute;
-      top:600px;
-      right:60px;
-      width:60px;
+      position: absolute;
+      top: 600px;
+      right: 60px;
+      width: 60px;
       border-radius: 90px;
     }
   }
@@ -51,5 +50,6 @@
   &-Button {
     display: flex;
     flex-wrap: nowrap;
+    gap: 8%;
   }
 }

@@ -1,5 +1,5 @@
-import "../style/index.scss";
-import LogoFooter from "../img/logo-footer.png";
+
+import LogoFooter from "../../img/logo-footer.png";
 
 function getCurrentYear() {
   const currentDate = new Date();

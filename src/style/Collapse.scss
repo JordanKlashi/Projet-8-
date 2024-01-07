@@ -6,7 +6,7 @@
   align-items: center;
   &-Text {
     display: flex;
-    width: 80%;
+    width: 100%;
     background-color: $textcolor;
     color: white;
     border: 1px red solid;
@@ -19,11 +19,17 @@
       max-height: 0;
       overflow: hidden;
       transition: max-height 10s ease-in-out;
-      width: 77%;
+      width: 95%;
       background-color: #f6f6f6;
       color: $textcolor;
       padding: 15px;
       margin-top: -10px;
+    }
+    &_List{
+      margin:6px;
+    }
+    &_IsnList{
+      margin:6px;
     }
   }
 }

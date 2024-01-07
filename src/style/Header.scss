@@ -1,5 +1,5 @@
 header {
-    margin:35px 0px ;
+  margin: 35px 0px;
 }
 
 nav {
@@ -8,26 +8,25 @@ nav {
 }
 
 .Logo {
-    width: 150px;
-  }
+  width: 150px;
+}
 
 .Link {
-    display: flex;
-    width: 180px;
-    justify-content: space-between;
-    &_Accueil {
-      text-decoration: none;
-      color: #ff6060;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-    &_Apropos {
-      text-decoration: none;
-      color: #ff6060;
-      &:hover{
-        text-decoration: underline;
-      }
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  &_Accueil {
+    text-decoration: none;
+    color: #ff6060;
+    &:hover {
+      text-decoration: underline;
     }
   }
-
+  &_Apropos {
+    text-decoration: none;
+    color: #ff6060;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

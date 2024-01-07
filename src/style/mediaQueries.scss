@@ -12,6 +12,9 @@
   }
   .Banner {
     margin: 0px;
+    &-Text{
+      left:5%;
+    }
   }
   .copyright {
     width: 120px;
@@ -33,9 +36,9 @@
     padding-top: 50px;
   }
   .FicheLogements {
-    &-Filter{
+    &-Filter {
       align-items: center;
-      margin-top:15px;
+      margin-top: 15px;
     }
     &-ProfilLoueur {
       position: relative;
@@ -51,12 +54,12 @@
     &-Button {
       flex-direction: column;
     }
-    &-Tag{
-      display:flex;
-      flex-direction:row;
+    &-Tag {
+      display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
-      &_txt{
-        margin-top:10px;
+      &_txt {
+        margin-top: 10px;
       }
     }
   }

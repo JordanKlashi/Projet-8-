@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import ArrowLeft from "../img/ArrowLeft.png";
-import ArrowRight from "../img/ArrowRight.png";
+import ArrowLeft from "../../img/ArrowLeft.png";
+import ArrowRight from "../../img/ArrowRight.png";
 
 const Carrousel = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
