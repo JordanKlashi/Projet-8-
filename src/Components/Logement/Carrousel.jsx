@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import ArrowLeft from "../../img/ArrowLeft.png";
 import ArrowRight from "../../img/ArrowRight.png";
 
@@ -9,26 +8,36 @@ const Carrousel = ({ slides }) => {
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slides.length - 1 ? 0 : currentSlide + 1);
   };
+
   const prevSlide = () => {
     setCurrentSlide(currentSlide === 0 ? slides.length - 1 : currentSlide - 1);
   };
 
+  if (slides.length <= 1) {
+    return (
+      <div className="carrousel">
+        <img className="carrousel-Img" src={slides[0]} alt={`Slide 0`} />
+      </div>
+    );
+  }
+
   return (
     <div className="carrousel">
+      <div className="carrousel-index">
+        {currentSlide + 1} / {slides.length}
+      </div>
+
       {slides.map((slide, index) => (
         <div
           key={index}
           className={index === currentSlide ? "slide active" : "slide"}
         >
           {index === currentSlide && (
-            <img
-              className="carrousel-Img"
-              src={slide}
-              alt={`Slide  ${index}`}
-            />
+            <img className="carrousel-Img" src={slide} alt={`Slide ${index}`} />
           )}
         </div>
       ))}
+
       <div className="arrow">
         <img
           className="arrow-Left"

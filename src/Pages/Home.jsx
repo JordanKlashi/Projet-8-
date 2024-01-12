@@ -1,5 +1,5 @@
-import Banner from "../Components/header/Banner.jsx";
-import Gallerie from "../Components/main/Gallerie.jsx";
+import Banner from "../Components/global/Banner.jsx";
+import Gallerie from "../Components/Home/Gallerie.jsx";
 import LogoAccueil from "../img/Banner_Accueil.png";
 const title = "Chez vous, partout et ailleurs";
 

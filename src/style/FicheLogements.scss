@@ -8,8 +8,19 @@
     align-items: center;
   }
   &-Titre {
-    font-size: 18px;
-    font-weight: 100;
+    & h2 {
+      overflow: hidden;
+      font-weight: 500;
+      font-size: 36px;
+      margin: 0px;
+      padding: 5px 0px;
+    }
+    & p {
+      margin: 0px;
+      padding: 5px 0px;
+      font-weight: 500;
+      font-size: 18px;
+    }
   }
   &-Profil {
     display: flex;
@@ -23,7 +34,7 @@
   }
   &-ProfilLoueur {
     position: absolute;
-    top: 600px;
+    top: 615px;
     right: 150px;
     color: $textcolor;
     &_Picture {
@@ -36,6 +47,7 @@
   }
   &-Tag {
     width: 100%;
+    padding: 10px 0px;
     &_txt {
       flex-wrap: wrap;
       margin-right: 20px;

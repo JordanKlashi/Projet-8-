@@ -1,5 +1,5 @@
-import Banner from "../Components/header/Banner.jsx";
-import Collapse from "../Components/animation/Collapse.jsx";
+import Banner from "../Components/global/Banner.jsx";
+import Collapse from "../Components/global/Collapse.jsx";
 import logoAccueil from "../img/Banner_Apropos.png";
 
 function Apropos() {

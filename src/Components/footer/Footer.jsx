@@ -1,4 +1,3 @@
-
 import LogoFooter from "../../img/logo-footer.png";
 
 function getCurrentYear() {
