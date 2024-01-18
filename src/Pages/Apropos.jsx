@@ -32,7 +32,7 @@ function Apropos() {
       <div className="Apropos">
         <div className="Apropos-Collapse">
           {data.map((item, i) => (
-            <Collapse content={item.content} title={item.title} />
+            <Collapse key={i} content={item.content} title={item.title} />
           ))}
         </div>
       </div>

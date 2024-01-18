@@ -17,7 +17,9 @@ function Collapse({ title, content, isList = false }) {
         <RotatingIcon icon={faChevronUp} onClick={handleIconClick} />
       </h2>
       {showContent && (
-        <p className={`Collapse-Text_sub ${showContent ? "show" : "Notshow"}`}>
+        <div
+          className={`Collapse-Text_sub ${showContent ? "show" : "Notshow"}`}
+        >
           {isList ? (
             content.map((item, i) => (
               <p className="Collapse-Text_List" key={i}>
@@ -27,7 +29,7 @@ function Collapse({ title, content, isList = false }) {
           ) : (
             <p className="Collapse-Text_IsnList">{content}</p>
           )}
-        </p>
+        </div>
       )}
     </div>
   );

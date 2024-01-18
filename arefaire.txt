@@ -6,3 +6,5 @@ color carte,
      index carrousel blanc,
       padding tag fiche logement,
        page 404 mobile,
+       souligné lien accueil a propos
+       

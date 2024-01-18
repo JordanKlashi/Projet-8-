@@ -10,7 +10,6 @@ function FilterLogement({ tags, starsRepresentation }) {
       </div>
       <div className="FicheLogements-Filter">
         <span className="FicheLogements-Star">{starsRepresentation}</span>
-        
       </div>
     </div>
   );

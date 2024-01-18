@@ -3,6 +3,7 @@ header {
 }
 
 nav {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -15,18 +16,23 @@ nav {
   display: flex;
   width: 180px;
   justify-content: space-between;
-  &_Accueil {
+
+  a {
+    display: flex;
     text-decoration: none;
     color: #ff6060;
-    &:hover {
+    justify-content: flex-end;
+
+    &.active {
       text-decoration: underline;
     }
-  }
-  &_Apropos {
-    text-decoration: none;
-    color: #ff6060;
-    &:hover {
-      text-decoration: underline;
+
+    &.Link_Accueil {
+      width: 150px;
+    }
+
+    &.Link_Apropos {
+      width: 150px;
     }
   }
 }
