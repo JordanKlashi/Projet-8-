@@ -1,0 +1,8 @@
+color carte,
+ taille carte,
+  ombrage banniere,
+   texte responsive banniere,
+    footer pas d'espace,
+     index carrousel blanc,
+      padding tag fiche logement,
+       page 404 mobile,

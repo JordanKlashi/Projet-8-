@@ -13,11 +13,11 @@
       font-weight: 500;
       font-size: 36px;
       margin: 0px;
-      padding: 5px 0px;
+      padding: 0px 0px;
     }
     & p {
       margin: 0px;
-      padding: 5px 0px;
+      padding: 10px 0px;
       font-weight: 500;
       font-size: 18px;
     }
@@ -25,29 +25,31 @@
   &-Profil {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -95px;
+    &Loueur {
+      padding-right: 10px;
+      color: $textcolor;
+      width: 65px;
+      text-align: end;
+      &_Picture {
+        border-radius: 90px;
+        width: 70px;
+      }
+    }
+  }
+  &-TagFilter {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
   }
   &-Filter {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-  }
-  &-ProfilLoueur {
-    position: absolute;
-    top: 615px;
-    right: 150px;
-    color: $textcolor;
-    &_Picture {
-      position: absolute;
-      top: 600px;
-      right: 60px;
-      width: 60px;
-      border-radius: 90px;
-    }
   }
   &-Tag {
-    width: 100%;
-    padding: 10px 0px;
+    padding: 35px 0px 15px 0px;
     &_txt {
       flex-wrap: wrap;
       margin-right: 20px;

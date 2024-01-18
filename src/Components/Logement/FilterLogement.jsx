@@ -1,6 +1,6 @@
-function FilterLogement({ tags, starsRepresentation, hostName, hostPicture }) {
+function FilterLogement({ tags, starsRepresentation }) {
   return (
-    <>
+    <div className="FicheLogements-TagFilter">
       <div className="FicheLogements-Tag">
         {tags.map((tag, index) => (
           <span key={index} className="FicheLogements-Tag_txt">
@@ -10,16 +10,9 @@ function FilterLogement({ tags, starsRepresentation, hostName, hostPicture }) {
       </div>
       <div className="FicheLogements-Filter">
         <span className="FicheLogements-Star">{starsRepresentation}</span>
-        <div className="FicheLogements-Profil">
-          <p className="FicheLogements-ProfilLoueur">{hostName}</p>
-          <img
-            className="FicheLogements-ProfilLoueur_Picture"
-            alt={hostName}
-            src={hostPicture}
-          ></img>
-        </div>
+        
       </div>
-    </>
+    </div>
   );
 }
 

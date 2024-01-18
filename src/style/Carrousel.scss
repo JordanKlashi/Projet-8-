@@ -1,5 +1,6 @@
 .carrousel {
   display: flex;
+  padding-bottom:15px;
   &-Img {
     object-fit: cover;
     border-radius: 25px;
@@ -11,14 +12,17 @@
     position: absolute;
     top: 520px;
     right: 50%;
+    color:white;
   }
 }
 .active {
   width: 100%;
 }
 .arrow {
-  position: absolute;
-  width: 94%;
+  position:absolute;
+  max-width: 1440px;
+  min-width: 500px;
+  width:97%;
   display: flex;
   justify-content: space-between;
   padding-top: 200px;
@@ -26,7 +30,12 @@
   &-Right,
   &-Left {
     cursor: pointer;
-    margin: 15px 45px;
     position: relative;
+  }
+  &-Left {
+    margin-left:25px;
+  }
+  &-Right {
+    margin-right:25px;
   }
 }

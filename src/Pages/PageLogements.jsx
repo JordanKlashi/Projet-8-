@@ -39,12 +39,12 @@ const Logements = () => {
           <HeaderLogement
             title={currentlogement.title}
             location={currentlogement.location}
+            hostName={currentlogement.host.name}
+            hostPicture={currentlogement.host.picture}
           />
           <FilterLogement
             tags={currentlogement.tags}
             starsRepresentation={starsRepresentation}
-            hostName={currentlogement.host.name}
-            hostPicture={currentlogement.host.picture}
           />
           <div className="FicheLogements-Button">
             <Collapse
