@@ -12,7 +12,7 @@ const Logements = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch("/data/logements.json")
+    fetch("../data/logements.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Problème lors du chargement des logements");

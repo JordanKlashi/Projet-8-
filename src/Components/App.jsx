@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/index.scss";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter , Routes, Route } from "react-router-dom";
 
 import Header from "./header/Header.jsx";
 import Footer from "./footer/Footer.jsx";
@@ -12,16 +12,16 @@ import Logements from "../Pages/PageLogements.jsx";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Apropos" element={<Apropos />} />
+        <Route exact path="/Projet-8-/" element={<Home />} />
+        <Route path="/Projet-8-/Apropos" element={<Apropos />} />
         <Route path="*" element={<Erreur />} />
-        <Route path="/Logements/:id" element={<Logements />} />
+        <Route path="/Projet-8-/Logements/:id" element={<Logements />} />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 

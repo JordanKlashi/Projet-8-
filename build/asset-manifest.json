@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Projet-8-/static/css/main.8581f3a9.css",
+    "main.js": "/Projet-8-/static/js/main.75189217.js",
+    "static/media/Banner_Apropos.png": "/Projet-8-/static/media/Banner_Apropos.640955dab8c7bff25514.png",
+    "static/media/Banner_Accueil.png": "/Projet-8-/static/media/Banner_Accueil.19221376a0aa2549c135.png",
+    "index.html": "/Projet-8-/index.html",
+    "main.8581f3a9.css.map": "/Projet-8-/static/css/main.8581f3a9.css.map",
+    "main.75189217.js.map": "/Projet-8-/static/js/main.75189217.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8581f3a9.css",
+    "static/js/main.75189217.js"
+  ]
+}
