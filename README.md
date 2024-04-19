@@ -14,18 +14,19 @@
 <h3>Technologies Utilisées</h3>
 
     Front-end: React
-    Composants Réutilisables: [Insérer ici les bibliothèques ou les techniques utilisées pour créer des composants réutilisables]
-    React Router DOM: [Insérer ici les détails sur l'utilisation de React Router DOM pour la navigation]
-    Animations: [Insérer ici les outils ou les techniques utilisées pour intégrer des animations dans l'application]
-    Carrousel: [Insérer ici les détails sur l'implémentation du carrousel pour la visualisation des images]
+    Composants Réutilisables: je n'ai utilisé aucune bibliothéque, tout mes composant sont réutilisables.
+    React Router DOM: Permet de rediriger en fonction de l'ID du logement.
+    Animations: Partis animations pas développer, ayant poussée l'animation sur le projet-4.
+    Carrousel: carrousel réutilisables.
 
 <h3>Installation</h3>
 
-    Cloner le dépôt : git clone [lien vers votre dépôt]
+    Cloner le dépôt : git clone 
     Installer les dépendances : npm install
     Démarrer l'application : npm start
 
 <h3>Captures d'Écran</h3>
 
 <img src="https://github.com/JordanKlashi/Projet-10/assets/129075458/d6524ea3-fff1-4b67-9aff-cb2947d2c26e" width="300px" alt="Projet-8" />
+</br>
 <img src="https://github.com/JordanKlashi/Projet-10/assets/129075458/75a5f346-14c0-4eaa-8d30-c21963f7d85a" width="300px" alt="Projet-8" />
